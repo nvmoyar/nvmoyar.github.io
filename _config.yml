@@ -1,0 +1,56 @@
+# Site settings
+title: Nohemy Veiga Moyar
+description: 'A Deep Learning projects site for Udacity DLND and AIND nanodegrees'
+url: 'http://nvmoyar.github.io'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Nohemy Veiga Moyar'
+  email: nohe.veiga@gmail.com
+  github_username:  nvmoyar
+  linkedin_username:  nohemy-veiga-moyar
+  google_plus: https://plus.google.com/collection/MmdQSE
+  other: http://floydhub.com/nvmoyar
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+      is_post: true # automatically set is_post=true for all posts
+
+ 
+# Add Jekyll collections
+collections:
+- projects        
+
+# Add metadata for collections
+collections:
+    projects:
+        output: true
+        permalink: /projects/:path/
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+#permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

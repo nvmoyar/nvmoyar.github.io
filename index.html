@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<!-- group all the existing categories of jekyll-collections named projects -->
+{% assign groups = site.projects | group_by: "project-category" %}
+<!-- create and assign a list of unique project-tags of a jekyll-collections called projects --> 
+{% assign tags =  site.projects | map: 'project-tags' | join: ' '  | split: ' ' | uniq %}
+  <div class="categories"> 
+    {% for group in groups %}
+            <a href="#{{ group.name | replace:' ','-' }}">{{ group.name }}</a>
+    {% endfor %}
+  </div>
+
+  <!-- iterate through all categories  --> 
+  {% for category in groups %} 
+    <!-- for each tag, create an anchor by using the tag name as an id --> 
+    <div id="{{ category.name }}">  
+      <h2>{{ category.name }}</h2>
+      <ul> <!-- create the list of projects -->
+        <!-- iterate through all the projects --> 
+        {% for project in site.projects %} 
+          {% if project.project-category contains category.name %} 
+              <li id="{{ project.project-category | replace:' ','-' }}"> 
+                <article class="post-container post-container--single">    
+                  <header class="post-header">
+                    <a href="{{ project.url | prepend: site.baseurl }}">
+                      <h3 class="post-title">{{ project.title }}</h3>
+                    </a>  
+                  </header>
+                  <section class="post-excerpt">
+                    <span>{{ project.description | truncate: 160 }}</span>
+                    {% if project.link != %}
+                      <span><a href="{{ project.link }}">Go to GitHub</a></span>
+                    {% endif %}  
+                  </section>
+                  <div class="post-meta">
+                    {% for tag in tags %}
+                      {% if project.project-tags contains tag %}
+                        <span class="post-meta__tags">
+                          <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> 
+                        </span>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </article>
+              </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+{% endfor %} 
