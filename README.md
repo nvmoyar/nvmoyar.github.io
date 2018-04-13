@@ -1,4 +1,4 @@
-# jekyll-uno
+# jekyll-uno 
 
 Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
 
@@ -15,26 +15,35 @@ Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://g
 * Tags listing page
 * Categories listing page
 * Google Analytics integration
+* Google+ integration
+* Other social profile integration
 * Disqus integration
 
 ---
 
-### Install and Test
+### Install, Test, Demo and Download
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `bundle exec jekyll serve --watch`
+Please check
 
-Access via: [http://localhost:4000/jekyll-uno/](http://localhost:4000/jekyll-uno/)
+[Install](https://github.com/joshgerdes/jekyll-uno)
+[Test](http://localhost:4000/jekyll-uno/)
+[Demo](http://joshgerdes.com/jekyll-uno/)
+[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+
+---
+### Customizations
+
+* This is not a blog style site
+* This site is using [Jekyll Collections](https://jekyllrb.com/docs/collections/) and no additional plugins. Collections feature has been used to display a list of 'projects'. 
+* Every 'projects' item shall be created at /_projects/ 
+* A 'projects' item has [title, description, link, project-category, project-tags]
+* A 'projects' item uses a customized categories template based on project-category
+* index.html displays a list of project-category showing each item:  title, a 260 truncated teaser of description attribute, link to GitHub repo and tags. 
+* Tags template only lists 'projects' items 
 
 ---
 
-### Demo and Download
-
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+### Screenshot
 
 ![jekyll-uno - free Jekyll theme](/screenshot.png)
 
