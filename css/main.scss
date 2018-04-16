@@ -57,3 +57,10 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+.post-img {
+  border: 1px solid #CCC;
+  -webkit-box-shadow: 7px 7px 12px -6px rgba(56,55,56,0.82);
+  -moz-box-shadow: 7px 7px 12px -6px rgba(56,55,56,0.82);
+  box-shadow: 7px 7px 12px -6px rgba(56,55,56,0.82);
+}
