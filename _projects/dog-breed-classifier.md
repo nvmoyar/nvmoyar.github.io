@@ -1,8 +1,9 @@
 ---
 title: Dog Breed Classifier
-layout: post
+layout: project_page
 description: Fermentum dolor mollis ac. Sed varius consectetur mi, nec accumsan ex lacinia eu. Maecenas pulvinar enim ut elit molestie, et porttitor elit tempus. Aenean et leo vestibulum, vulputate nibh vehicula, pretium sem. Vestibulum varius diam velit, non feugiat lacus porta sed. In elementum risus sem, id venenatis justo consectetur nec. 
 link: 'https://github.com/nvmoyar/aind2-dog-breed-classifier'
+project-image: dog-breed-classifier_screenshot.png
 project-category: "Image Classifier"
 project-tags:
  CNN

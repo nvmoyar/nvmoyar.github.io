@@ -1,7 +1,8 @@
 ---
 title: Sudoku
-layout: post
+layout: project_page
 description: Morbi placerat facilisis elit sit amet consectetur. Donec et orci a nisl bibendum pellentesque ac sed risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Phasellus ultricies massa ut placerat hendrerit.
+project-image: sudoku_screenshot.gif
 project-category: AI Algorithms
 project-tags:
  Constraint-Satisfaction

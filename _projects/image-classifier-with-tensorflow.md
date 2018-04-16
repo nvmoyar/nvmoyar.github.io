@@ -1,8 +1,9 @@
 ---
 title: An image classifier for CIFAR-10 dataset
-layout: post
+layout: project_page
 description: Nullam tempor sollicitudin commodo. Nulla ante lorem, pharetra vitae elit posuere, molestie efficitur metus. Nunc sollicitudin, urna vel hendrerit convallis, neque metus ultrices libero, in vulputate velit nisi non mauris. Fusce sed neque et ante aliquet laoreet. Nullam sit amet ex non ante consectetur tincidunt et vitae sapien. 
 link: 'https://github.com/nvmoyar/convolutional_nn_image_classification'
+project-image: cifar-10-image-classifier_screenshot.png
 project-category: Image Classifier
 project-tags:
  CNN

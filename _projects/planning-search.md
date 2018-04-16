@@ -1,7 +1,8 @@
 ---
 title: Planning Search
-layout: post
+layout: project_page
 description: Quisque a velit porta, consectetur ligula sodales, luctus dui. Donec sed ultricies ex. Morbi arcu tortor, sollicitudin vel velit in, dignissim ullamcorper nibh. Fusce malesuada tristique gravida. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+project-image: planning_screenshot.png
 project-category: AI Algorithms
 project-tags:
  Constraint-Satisfaction
