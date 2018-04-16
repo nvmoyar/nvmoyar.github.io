@@ -1,7 +1,8 @@
 ---
 title: Language Translation
-layout: post
+layout: project_page
 description: Fusce sed neque et ante aliquet laoreet. Nullam sit amet ex non ante consectetur tincidunt et vitae sapien. 
+project-image: text-generation_screenshot.png
 project-category: Text Translation
 project-tags:
  LSTM

@@ -1,7 +1,8 @@
 ---
 title: Speech Recognition
-layout: post
+layout: project_page
 description: Sed ullamcorper elit nibh, et fermentum dolor mollis ac. Sed varius consectetur mi, nec accumsan ex lacinia eu. Maecenas pulvinar enim ut elit molestie, et porttitor elit tempus. Aenean et leo vestibulum, vulputate nibh vehicula, pretium sem. Vestibulum varius diam velit, non feugiat lacus porta sed. In elementum risus sem, id venenatis justo consectetur nec. 
+project-image: recognizer_screenshot.png
 project-category: "Automatic Speech Recognition"
 project-tags:
  ASR

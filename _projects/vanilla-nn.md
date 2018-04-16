@@ -1,7 +1,8 @@
 ---
 title: Vanilla Neural Network for Bike Sharing prediction
-layout: post
+layout: project_page
 description: Aenean eget sem non nisl pharetra accumsan. Suspendisse a nulla eget orci porta ullamcorper. Sed eget sapien faucibus enim tempus vestibulum in ac turpis. Nullam aliquam mauris ut aliquet congue. Integer condimentum scelerisque sapien, ac pulvinar sem dapibus vitae. Morbi porttitor libero at tellus fringilla tincidunt.
+project-image: vanillann_screenshot.png
 project-category: Vanilla NN
 project-tags:
  TensorFlow

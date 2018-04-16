@@ -1,7 +1,8 @@
 ---
 title: GAN for image generation
-layout: post
+layout: project_page
 description: Duis aliquam, nibh ut malesuada bibendum, lorem leo viverra neque, non commodo erat sapien dignissim sem. Aliquam erat volutpat. Nullam tempor sollicitudin commodo. Nulla ante lorem, pharetra vitae elit posuere, molestie efficitur metus. Nunc sollicitudin, urna vel hendrerit convallis, neque metus ultrices libero, in vulputate velit nisi non mauris. Fusce sed neque et ante aliquet laoreet. Nullam sit amet ex non ante consectetur tincidunt et vitae sapien. 
+project-image: gan_screenshot.png
 project-category: Image Generation
 project-tags:
  Generative-Discriminative-NN

@@ -1,8 +1,9 @@
 ---
 title: Voice User Interfaces Resources
-layout: post
+layout: project_page
 description: Quisque pretium felis vitae massa iaculis, quis vestibulum nunc hendrerit. Nullam nisi erat, rutrum a erat eget, rhoncus eleifend ex. Phasellus gravida libero ac commodo hendrerit. Fusce mollis egestas turpis, ut ultricies arcu consequat sed. Pellentesque fringilla vulputate efficitur.
 link: 'https://github.com/nvmoyar/voice-user-interfaces'
+project-image: vui-labs_screenshot.png
 project-category: "Automatic Speech Recognition"
 project-tags:
  ASR

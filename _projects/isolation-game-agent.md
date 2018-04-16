@@ -1,7 +1,8 @@
 ---
 title: A game agent for Isolation Game
-layout: post
+layout: project_page
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere consequat risus ut sagittis. Etiam quis venenatis nisl. Cras in massa ante.
+project-image: game-agent-isolation_screenshot.png
 project-category: AI Algorithms
 project-tags: 
  Constraint-Satisfaction
