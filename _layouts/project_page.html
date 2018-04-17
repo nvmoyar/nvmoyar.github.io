@@ -19,7 +19,12 @@ title, layout, description, link, project-image, project-category, project-tags
 
   <section class="post">
     <div class="description">{{ content }}</div>
-    <div class="post-img"><img src="{{ site.baseurl }}/images/projects/{{ page.project-image }}" /></div>
+    <span class="">
+      {% if project.project-link !='' %}
+        <span><a href="{{ page.project-link }}">Go to GitHub</a></span>
+      {% endif %}  
+    </span>
+    <div class="post-img"><a href="{{ page.project-link }}" target="_blank"><img src="{{ site.baseurl }}/images/projects/{{ page.project-image }}" /></a></div>
     
     <span class="post-meta__tags">{% for tag in tags %}<a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> {% endfor %}</span>
    
