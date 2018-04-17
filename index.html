@@ -28,8 +28,8 @@ layout: default
                     </a>  
                   </header>
                   <section class="post-excerpt">
-                    <span>{{ project.description | truncate: 160 }}</span>
-                    {% if project.project-link !='' %}
+                    <span>{{ project.description }}</span>
+                    {% if project.project-link != nil %}
                       <span><a href="{{ project.link }}">Go to GitHub</a></span>
                     {% endif %}  
                   </section>
