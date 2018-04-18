@@ -3,6 +3,7 @@ title: Research Reviews
 layout: project_page
 description: Nam ullamcorper quam odio, sit amet elementum lorem porttitor semper. Nullam lorem massa, bibendum vel porttitor quis, ornare eu metus.
 link: 'https://github.com/nvmoyar/research_reviews'
+project-link: https://github.com/nvmoyar/research_reviews
 project-image: research-review_screenshot.png
 project-category: Research Reviews
 project-tags:
