@@ -1,17 +1,27 @@
 ---
 title: An image classifier for CIFAR-10 dataset
 layout: project_page
-description: Nullam tempor sollicitudin commodo. Nulla ante lorem, pharetra vitae elit posuere, molestie efficitur metus. Nunc sollicitudin, urna vel hendrerit convallis, neque metus ultrices libero, in vulputate velit nisi non mauris. Fusce sed neque et ante aliquet laoreet. Nullam sit amet ex non ante consectetur tincidunt et vitae sapien. 
-project-link: 'https://github.com/nvmoyar/convolutional_nn_image_classification'
+description: In this project, a Convolutional Neural Network is built to classify a subset of the CIFAR-10 dataset. This is a classic multiclass classification problem that illustrates Supervised Learning in action.  
+project-link: 'https://github.com/nvmoyar/dlnd-cnn-image-classifier'
 project-image: cifar-10-image-classifier_screenshot.png
 project-category: Image Classifier
 project-tags:
  CNN
- TF
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere consequat risus ut sagittis. Etiam quis venenatis nisl. Cras in massa ante. Nam ullamcorper quam odio, sit amet elementum lorem porttitor semper. Nullam lorem massa, bibendum vel porttitor quis, ornare eu metus. Morbi placerat facilisis elit sit amet consectetur. Donec et orci a nisl bibendum pellentesque ac sed risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam erat volutpat. Phasellus ultricies massa ut placerat hendrerit.
 
-Phasellus hendrerit vestibulum dolor et pretium. Sed sollicitudin semper nisi, dictum tempor tortor vehicula in. Suspendisse quis ornare urna. Aenean vehicula gravida ultricies. Aenean eget sem non nisl pharetra accumsan. Suspendisse a nulla eget orci porta ullamcorper. Sed eget sapien faucibus enim tempus vestibulum in ac turpis. Nullam aliquam mauris ut aliquet congue. Integer condimentum scelerisque sapien, ac pulvinar sem dapibus vitae. Morbi porttitor libero at tellus fringilla tincidunt.
+In this project, a Convolutional Neural Network is built to classify a subset of the CIFAR-10 dataset. This is a classic multiclass classification problem that illustrates Supervised Learning. This dataset consists of airplanes, dogs, cats, and other objects that will be labeled from 0 to 9 by using the LabelBinarizer function of Sckikit-Learn in a pre-process function, therefore we get a One-Hot encoded Numpy array with targets/labels for each input image. The images need only to be rescaled, getting a 3D input tensor or cube of numbers between [0, 1]. 
+
+This CNN model takes a batch of images and labels to output the logits, and it consists of a stack of: 
+
+* Some Convolution layers and Max Pooling layers to reduce dimensionality preserving the spatial integrity, getting a 4D tensor.
+
+* A Flatten layer that will process the 4D tensor output of the previous stack of layers, to output a 2D tensor.
+
+* Some Fully Connected connected layers. Since we are using the tf.nn module -low abstraction level API- instead of tf.layers -high abstraction level API-, the operations performed at this layer are manually defined. This way we can expressly set weights initialized to random normal rather than random distribution, etc. For this reason, a different Fully Connected layer called Output layer is needed to reduce dimensionality to the number of classes needed for this problem. Please notice that Dropout layers are used to prevent overfitting, and the keep probability has been defined as a 0D Tensor or Scalar. 
+
+* Output layer, the last used Fully Connected layer needed to reduce the dimensionality of the convoluted data to the classes that need to be classified. 
+
+After tuning this model, and training it on this subset of CIFAR-10, we get a ~70% accuracy, which makes that more the predictions are likely, still, it is not a great classifier depending on the final use, but it supposes a great introduction to hands-on on Supervised Learning. 
 
 
 
