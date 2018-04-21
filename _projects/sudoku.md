@@ -20,3 +20,5 @@ Some additional features have been added in this implementation. Although that w
 * Implement hidden_twins() as a new solver strategy 
     * [Reference1](https://www.sudokuoftheday.com/techniques/hidden-pairs-triples/)
     * [Reference2](http://www.sudokudragon.com/tutorialhiddentwins.htm)
+
+**Further documentation for this project can be found in this [resource](Solve_any_Sudoku_with_AI.ipynb) notes taken from [http://norvig.com/sudoku.html]**
