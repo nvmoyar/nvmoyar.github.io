@@ -1,13 +1,14 @@
 ---
-title: Vanilla Neural Network for Bike Sharing prediction
+title: Time Series projects: a regressor and a text generator
 layout: project_page
 description: This project consists of two different unrelated mini-projects, where the power of Recurrent Neural Networks can be experienced, a Times Series regressor and a Sequence generator. 
-project-link: https://github.com/nvmoyar/dlnd-your-first-neural-network
-project-image: vanillann_screenshot.png
-project-category: Vanilla NN
+project-link: "https://github.com/nvmoyar/aind2-time-series"
+project-image: "rnn-time-series_screenshot.png"
+project-category: "Text Processing"
 project-tags:
- TensorFlow
- Vanilla-NN
+ Keras
+ RNN
+ LSTM
 ---
 
 This project consists of two different unrelated mini-projects, where the power of Recurrent Neural Networks can be experienced: A Times Series regressor and a Sequence generator. Both projects have the following TODO tasks:  
