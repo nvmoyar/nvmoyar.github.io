@@ -14,7 +14,6 @@ The field of Artificial Intelligence is continually changing and advancing. Udac
 
 # Index
 
-* [Comparing search algorithms for a domain independent planner](Comparing_search_algorithms_for_a_domain_independent_planner.pdf)
 * [Mastering the game of Go with deep neural networks and tree search](Mastering_the_game_of_Go_with_deep_neural_networks_and_tree_search.pdf)
 * [Speech recognition with Deep Recurrent Neural Networks](Speech_recognition_with_Deep_Recurrent_Neural_Networks.pdf)
 * [Three key developments in the field of AI Planning and Search](Three_key_developments_in_the_field_of_AI_Planning_and_Search.pdf)
