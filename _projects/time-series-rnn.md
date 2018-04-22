@@ -6,9 +6,9 @@ project-link: "https://github.com/nvmoyar/aind2-time-series"
 project-image: "rnn-time-series_screenshot.png"
 project-category: "Text Processing"
 project-tags:
- Keras
- RNN
- LSTM
+ "Keras"
+ "RNN"
+ "LSTM"
 ---
 
 This project consists of two different unrelated mini-projects, where the power of Recurrent Neural Networks can be experienced: A Times Series regressor and a Sequence generator. Both projects have the following TODO tasks:  

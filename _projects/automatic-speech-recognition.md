@@ -6,12 +6,11 @@ project-link: "https://github.com/nvmoyar/aind2-speech-recognition"
 project-image: "ASR_screenshot.png"
 project-category: "Speech Recognition"
 project-tags:
- Automatic-Speech-Recognition	
- ASR
- CNN
- LSTM
- Bidirectional
- RNN
+ "Automatic-Speech-Recognition"	
+ "CNN"
+ "LSTM"
+ "Bidirectional-RNN"
+ "RNN"
 ---
 
 In this notebook, some different approaches are used to build the acoustic model for an end-to-end automatic speech recognition (ASR) pipeline:

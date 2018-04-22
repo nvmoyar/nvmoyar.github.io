@@ -3,14 +3,14 @@ title: Planning Search
 layout: project_page
 description: The motivation of this project is to solve some deterministic logistic planning problems for an Air Cargo transport system using a planning search agent. With progression search algorithms like those in the navigation problem from lecture, optimal plans for each problem will be computed.  Unlike the navigation problem, there is no simple distance heuristic to aid the agent. 
 Instead, we implement domain-independent heuristics.
-project-link: https://github.com/nvmoyar/aind-planning-search
-project-image: planning_screenshot.png
+project-link: "https://github.com/nvmoyar/aind-planning-search"
+project-image: "planning_screenshot.png"
 project-category: "AI Algorithms"
 project-tags:
- Constraint-Satisfaction
- Search-algorithms
- A-star
- Heuristics
+ "Constraint-Satisfaction"
+ "Search-algorithms"
+ "A-star"
+ "Heuristics"
 ---
 
 In this Cargo problems, we assume that no action can satisfy more than one goal, and since goals are satisfied by different actions, so if there are three goal states, there will be necessary at least three actions to satisfy the goal state.  It is also assumed that all step nodes have the same cost. 
