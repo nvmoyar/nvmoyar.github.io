@@ -1,12 +1,20 @@
 ---
 title: Research Reviews
 layout: project_page
-description: Nam ullamcorper quam odio, sit amet elementum lorem porttitor semper. Nullam lorem massa, bibendum vel porttitor quis, ornare eu metus.
+description: The field of Artificial Intelligence is continually changing and advancing. Udacity, in an attempt at making students get more familiar with paper-reading and synthesize the most relevant ideas from a scientific reading, encourage us to write some research reviews as part of the project delivery. This repository is an effort of continuing this discipline. For now, it only contains reviews made from some relevant papers, and it is expected to grow gradually.  
 link: 'https://github.com/nvmoyar/research_reviews'
 project-link: https://github.com/nvmoyar/research_reviews
-project-image: research-review_screenshot.png
+project-image: 'research-review_screenshot.png'
 project-category: Research Reviews
 project-tags:
  Research-Reviews
 ---
-Phasellus hendrerit vestibulum dolor et pretium. Sed sollicitudin semper nisi, dictum tempor tortor vehicula in. Suspendisse quis ornare urna. Aenean vehicula gravida ultricies. Aenean eget sem non nisl pharetra accumsan. Suspendisse a nulla eget orci porta ullamcorper. Sed eget sapien faucibus enim tempus vestibulum in ac turpis. Nullam aliquam mauris ut aliquet congue. Integer condimentum scelerisque sapien, ac pulvinar sem dapibus vitae. Morbi porttitor libero at tellus fringilla tincidunt.
+
+The field of Artificial Intelligence is continually changing and advancing. Udacity, in an attempt at making students get more familiar with paper-reading and synthesize the most relevant ideas from a scientific reading, encourage us to write some research reviews as part of the project delivery. This repository is an effort of continuing this discipline. For now, it only contains reviews made from some relevant papers, and it is expected to grow gradually. 
+
+# Index
+
+* [Comparing search algorithms for a domain independent planner](Comparing_search_algorithms_for_a_domain_independent_planner.pdf)
+* [Mastering the game of Go with deep neural networks and tree search](Mastering_the_game_of_Go_with_deep_neural_networks_and_tree_search.pdf)
+* [Speech recognition with Deep Recurrent Neural Networks](Speech_recognition_with_Deep_Recurrent_Neural_Networks.pdf)
+* [Three key developments in the field of AI Planning and Search](Three_key_developments_in_the_field_of_AI_Planning_and_Search.pdf)
