@@ -5,7 +5,7 @@ description: The motivation of this project is to solve some deterministic logis
 Instead, we implement domain-independent heuristics.
 project-link: "https://github.com/nvmoyar/aind-planning-search"
 project-image: "planning_screenshot.png"
-project-category: "AI Algorithms"
+project-category: AI Algorithms
 project-tags:
  "Constraint-Satisfaction"
  "Search-algorithms"
