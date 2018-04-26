@@ -6,6 +6,7 @@ layout: default
 <!-- create and assign a list of unique project-tags of a jekyll-collections called projects --> 
 {% assign tags =  site.projects | map: 'project-tags' | join: ' '  | split: ' ' | uniq %}
   <div class="categories"> 
+            <h1>Project Categories:</h1>
     {% for group in groups %}
             <a href="#{{ group.name | replace:' ','-' }}">{{ group.name }}</a>
     {% endfor %}
