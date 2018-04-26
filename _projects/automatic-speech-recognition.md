@@ -1,5 +1,5 @@
 ---
-title: Speech Recognition
+title: A deep acoustic model for Speech Recognition
 layout: project_page
 description: In this notebook, some different approaches are used to build the acoustic model for an end-to-end automatic speech recognition (ASR) pipeline. In addition to providing different architectures, the notebook provides a discussion based on the observations after comparing the different models. The third part includes a predicted transcription based on the probability distribution of the chosen acoustic models, output on the second part of the notebook.
 project-link: https://github.com/nvmoyar/aind2-speech-recognition
