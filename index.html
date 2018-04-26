@@ -16,8 +16,8 @@ layout: default
   {% for category in groups %} 
     <!-- for each tag, create an anchor by using the tag name as an id --> 
     <!-- for each tag, display the category as a rounded-button --> 
-    <span id="{{ category.name }}"></span>
-    <div>  
+    <a name="{{ category.name }}" id="{{ category.name }}">{{ category.name }}</a>
+    <div class="{{ category.name }}">  
       <h2>{{ category.name }}</h2>
       <ul> <!-- create the list of projects -->
         <!-- iterate through all the projects --> 
