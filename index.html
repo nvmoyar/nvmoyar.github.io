@@ -5,7 +5,7 @@ layout: default
 {% assign groups = site.projects | group_by: "project-category" %}
 <!-- create and assign a list of unique project-tags of a jekyll-collections called projects --> 
 {% assign tags =  site.projects | map: 'project-tags' | join: ' '  | split: ' ' | uniq %}
-  <div class="project-categories"> 
+  <div class="categories"> 
     {% for group in groups %}
             <a href="#{{ group.name}}">{{ group.name }}</a>
     {% endfor %}
