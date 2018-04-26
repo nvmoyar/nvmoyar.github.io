@@ -27,27 +27,3 @@ For this heuristics evaluation three different options have been chosen followin
 
 * Custom_3: based on Manhattan distance between agent and opponent, the distance value is used as a bonus to reduce the opponent’s moves (as Custom_2) but penalizing more the opponent’s moves when the agent plays long distances from the opponent. The inverse of the function has been used instead, without any significant results.
 
-Based on improved_score() and center_score(), other modifications have been tried without significant success:
-
-* Arbitrary pair/odd penalizing
-* Change strategy depending on the remaining % blank_spaces/occupancy
-
-#### Measurement of performance
-
-Since most packages like logging, PDB or profile are not allowed, the performance measurement has been carried out by Terminal1.
-The number of matches played: 30 in two rounds.
-
-> python -m cProfile -s cumulative tournament.py
-
-#### Observations
-
-Some important observations have been noted as a result of running several times the tournament file. One important factor that has been noted as an important key to improving the performance of the agent, is how the best_move variable is initialized in get_move() functions and minimax() and alphabet() within their respective classes. Different ways to init have been used, please read the [heuristics analysis for further details](https://github.com/nvmoyar/aind1-isolation-game/blob/master/heuristic_analysis.pdf)
-
-Easily the winning percentages, in general, may increase in 5-8% when best_move is initialized to a fixed position rather than random or not valid, there is an excellent discussion on Udacity’s AIND-Term1 that can be found on the [report](https://github.com/nvmoyar/aind1-isolation-game/blob/master/heuristic_analysis.pdf). 
-
-Another important factor noted as important is working with heuristic functions as simple as possible. Including loops increase significantly the amount of time for the evaluation and thus, the strategy may experience variations if the function is more lightweight, thus these evaluations based on % blank spaces or pairs/odd, have been removed. In the next figure shows an example of the functions tested and finally discarded as the winning rates were below 60%.
-
-#### Conclusions
-
-Several tests have been run out, and an extremely high variability over the winning rates have been observed, so it is not worth getting into fine analytics. However in a rough way, we can say that the performance of the custom functions is good enough for all 3 and the winning rates are over the 60%, and the performance versus the Improved function is better as data are fairly consistent. In the same way, the rates are much better for the Minimax agent rather than the AlphaBetaPlayer using iterative deepening alpha-beta search with heuristics (see the figure below).
-Due to this variability is really difficult to draw a conclusion and pick one over the rest. However, based on the winning rates and the % time CPU spent, AB_Custom_2 and AB_Custom_3, seem to be the better choices, as the winning rates are high and the cost in time is lower compared to AB_Improved or AB_Custom. 
