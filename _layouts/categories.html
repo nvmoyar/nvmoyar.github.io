@@ -16,7 +16,8 @@ layout: default
   {% for category in groups %} 
     <!-- for each tag, create an anchor by using the tag name as an id --> 
     <!-- for each tag, display the category as a rounded-button --> 
-    <div id="{{ category.name }}">  
+    <a name="{{ category.name }}" id="{{ category.name }}"></a>
+    <div class="{{ category.name }}">  
       <h2>{{ category.name }}</h2>
       <ul> <!-- create the list of projects -->
         <!-- iterate through all the projects --> 
@@ -25,7 +26,7 @@ layout: default
               <li id="{{ project.project-category | replace:' ','-' }}"> 
                 <article class="post-container post-container--single">    
                   <header class="post-header">
-                    <a href="{{ project.url | prepend: site.baseurl }}">
+                    <a href="{{ project.url | prepend: site.baseurl }}" title="link to project page" class="project-title">
                       <h3 class="post-title">{{ project.title }}</h3>
                     </a>  
                   </header>
