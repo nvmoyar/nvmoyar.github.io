@@ -6,10 +6,10 @@ project-link: "https://github.com/nvmoyar/dlnd-text-generation"
 project-image: "text-generation_screenshot.png"
 project-category: Text Processing
 project-tags:
- "Word-embeddings"
- "Gradient-clipping"	
- "LSTM"
- "TensorFlow"
+ Word-embeddings
+ Gradient-clipping
+ LSTM
+ TensorFlow
 ---
 
 Recurrent Neural Networks are proven a good approach to deal with sequential data like time series or meaningful text. In this project, a new script for the Simpsons TV series is created from the 'Simpsons by the data' dataset from Kaggle. 
