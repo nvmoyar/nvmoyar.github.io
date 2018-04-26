@@ -6,6 +6,11 @@
 
 /* Modifications */
 
+.content-wrapper__inner{
+  margin: 0 6%;
+  padding: 50px 0;
+}
+
 pre.highlight,
 .highlight pre {
   padding: 10px;
@@ -25,6 +30,12 @@ pre.highlight code,
 .pagination__page-number {
   display: inline-block;
   padding: 10px;
+}
+
+.categories{
+  border-bottom: #CCC 1px dotted;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 .categories a,
@@ -66,8 +77,10 @@ pre.highlight code,
   box-shadow: 7px 7px 12px -6px rgba(56,55,56,0.82);
 }
 
-.categories{
-  border-bottom: #CCC 1px dotted;
-  padding-bottom: 30px;
-  text-align: center;
+h1, h2, h3, h4, h5, h5{
+  line-height: 1.1em;
+}
+
+h3{
+  font-size: 1.6em;
 }
