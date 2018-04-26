@@ -4,7 +4,7 @@ layout: project_page
 description: The main goal of this project is to build a word recognizer for some American Sign Language video sequences using hidden Markov models using features extracted from gestural measurements taken from videos frames collected for research (see the RWTH-BOSTON-104 Database).
 project-link: https://github.com/nvmoyar/aind1-recognizer
 project-image: recognizer_screenshot.png
-project-category: Speech Recognition
+project-category: Speech-Recognition
 project-tags:
  Automatic-Speech-Recognition
  Hidden-Markov-Models

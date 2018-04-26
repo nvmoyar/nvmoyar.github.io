@@ -4,7 +4,7 @@ layout: project_page
 description: In this project, a Convolutional Neural Network is built to classify a subset of the CIFAR-10 dataset. This is a classic multiclass classification problem that illustrates Supervised Learning in action.  
 project-link: https://github.com/nvmoyar/dlnd-cnn-image-classifier
 project-image: cifar-10-image-classifier_screenshot.png
-project-category: Image Classifier
+project-category: Image-Classifier
 project-tags:
  CNN
  TensorFlow

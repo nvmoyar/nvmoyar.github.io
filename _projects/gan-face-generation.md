@@ -4,7 +4,7 @@ layout: project_page
 description: Use of Generative Adversarial Networks (GAN's) to generate new images of faces using MNIST and CelebA. Since the celebA dataset is complex, we want you to test the model on MNIST before CelebA. Running the GANs on MNIST will allow you to see how well the model trains sooner and it will make quick to tune our hyperparameters. 
 project-link: https://github.com/nvmoyar/dlnd-gan-face-generation
 project-image: gan_screenshot.png
-project-category: Image Generation
+project-category: Image-Generation
 project-tags:
  Generative-Discriminative-NN
  GAN

@@ -4,7 +4,7 @@ layout: project_page
 description:  In this project, a Recurrent Neural Network is created to generate a new script for the Simpsons TV series from the whole 'Simpsons by the data' dataset from Kaggle.
 project-link: https://github.com/nvmoyar/dlnd-text-generation
 project-image: text-generation_screenshot.png
-project-category: Text Generation
+project-category: Text-Generation
 project-tags:
  Word-embeddings
  Gradient-clipping
