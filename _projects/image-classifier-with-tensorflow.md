@@ -23,6 +23,3 @@ This CNN model takes a batch of images and labels to output the logits, and it c
 * Output layer, the last used Fully Connected layer needed to reduce the dimensionality of the convoluted data to the classes that need to be classified. 
 
 After tuning this model, and training it on this subset of CIFAR-10, we get a ~70% accuracy, which makes that more the predictions are likely, still, it is not a great classifier depending on the final use, but it supposes a great introduction to hands-on on Supervised Learning. 
-
-
-

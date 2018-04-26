@@ -24,7 +24,7 @@ All those implementations can be found in `my_answers.py`file.
 
 ### PART 1: Time Series Regressor
 
-On the first part, we perform time series prediction using a Recurrent Neural Network. We create a regressor for the stock price of Apple was forecasted (or predicted) 7 days in advance, using Keras. For this mini-project we use normalized data that is already provided and it can be found on [this location](./datasets/normalized_apple_prices.csv). 
+On the first part, we perform time series prediction using a Recurrent Neural Network. We create a regressor for the stock price of Apple was forecasted (or predicted) 7 days in advance, using Keras. For this mini-project we use normalized data that is already provided and it can be found on [this location](https://github.com/nvmoyar/aind2-time-series/datasets/normalized_apple_prices.csv). 
 
 Bearing in mind the unfolded view of this problem, we build a sliding window along the input series to create the associated input/output pairs, and we will be using this sliding window function to build our feeding dataset afterward. The neural model is a quite simple LSTM model that does not take too much time to train and validate.  
 

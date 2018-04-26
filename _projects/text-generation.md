@@ -18,8 +18,8 @@ Initially, for this Udacity's project, only the graph built was trained only usi
 
 Unlike the Udacity's repo, in this project we find two Jupiter notebooks: 
 
-* simpsons_dataset_preparation.ipynb --> the additional operations to prepare a text with the whole The Simpsons Dataset from Kaggle. 
-* dlnd_tv_script_generation.ipynb --> the model, the training and the predicted script. 
+* https://github.com/nvmoyar/dlnd-text-generation/simpsons_dataset_preparation.ipynb --> the additional operations to prepare a text with the whole The Simpsons Dataset from Kaggle. 
+* https://github.com/nvmoyar/dlnd-text-generation/dlnd_tv_script_generation.ipynb --> the model, the training and the predicted script. 
 
 We could visualize the input words passed as one-hot encoded vectors, and on this case, this might work if we are dealing with a small dataset, however, with a larger corpus, the dimensionality will be so huge that the computation could be unbearable. To deal with this high dimensionality problem, we would need a better vector representation for our words, since words that could be used in the same context should appear closer than unrelated words. This weight matrix is usually called the embedding matrix or embedding look-up table and Tensorflow provides a convenient function which does this lookup to get the embedding tensors. In this case, we build lookup tables for later use when creating the word embeddings. 
 
@@ -30,4 +30,3 @@ The final model is a stack of LSTM cells that will be fed in a custom length of 
 Besides, the neural network uses element-wise gradient clipping when it exceeds an absolute threshold. Although it introduces an additional hyperparameter, this parameter has not been exposed jointly with the rest of the hyperparameters to tune in this neural graph. Thresholds have been manually established in [-1., 1.]. 
 
 The idea is to use the final graph to build a word picker function, that will be in charge of giving a word, find the probabilities of the next word, given a word set initially as a start of the sequence. 
-
