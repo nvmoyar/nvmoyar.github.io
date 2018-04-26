@@ -14,7 +14,7 @@ project-tags:
 
 Recurrent Neural Networks are proven a good approach to deal with sequential data like time series or meaningful text. In this project, a new script for the Simpsons TV series is created from the 'Simpsons by the data' dataset from Kaggle. 
 
-Initially, for this Udacity's project, only the graph built was trained only using all scenes at Moe's Tavern. However, for experimenting purposes, the whole dataset has been used for training in order to get a more sensical script. It can be found some scripts for different characters -still nonsensical- saved as HTML files and different epochs. 
+Initially, for this Udacity's project, only the graph built was trained only using all scenes at Moe's Tavern. However, for experimenting purposes, the whole dataset has been used for training in order to get a more sensical script. 
 
 Unlike the Udacity's repo, in this project we find two Jupiter notebooks: 
 
