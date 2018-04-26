@@ -25,7 +25,7 @@ layout: default
               <li id="{{ project.project-category | replace:' ','-' }}"> 
                 <article class="post-container post-container--single">    
                   <header class="post-header">
-                    <a href="{{ project.url | prepend: site.baseurl }}">
+                    <a href="{{ project.url | prepend: site.baseurl }}" title="link to project page" class="project-title">
                       <h3 class="post-title">{{ project.title }}</h3>
                     </a>  
                   </header>
