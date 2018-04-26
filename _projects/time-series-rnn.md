@@ -1,7 +1,7 @@
 ---
 title: Time Series projects
 layout: project_page
-description: This project consists of two different unrelated mini-projects, where the power of Recurrent Neural Networks can be experienced, a **Times Series regressor** and a **Sequence generator**. 
+description: This project consists of two different unrelated mini-projects, where the power of Recurrent Neural Networks can be experienced, a Times Series regressor and a Sequence generator. 
 project-link: https://github.com/nvmoyar/aind2-time-series
 project-image: rnn-time-series_screenshot.png
 project-category: Text Generation
