@@ -6,6 +6,7 @@ layout: default
 <!-- create and assign a list of unique project-tags of a jekyll-collections called projects --> 
 {% assign tags =  site.projects | map: 'project-tags' | join: ' '  | split: ' ' | uniq %}
   <div class="categories"> 
+            <h4>Project Categories:</h4>
     {% for group in groups %}
             <a href="#{{ group.name | replace:' ','-' }}">{{ group.name }}</a>
     {% endfor %}
@@ -14,6 +15,7 @@ layout: default
   <!-- iterate through all categories  --> 
   {% for category in groups %} 
     <!-- for each tag, create an anchor by using the tag name as an id --> 
+    <!-- for each tag, display the category as a rounded-button --> 
     <div id="{{ category.name }}">  
       <h2>{{ category.name }}</h2>
       <ul> <!-- create the list of projects -->
@@ -30,7 +32,7 @@ layout: default
                   <section class="post-excerpt">
                     <span>{{ project.description }}</span>
                     {% if project.project-link != '' %}
-                      <span><a href="{{ project.project-link }}">Go to GitHub</a></span>
+                      <span><a href="{{ project.project-link }}" target="_blank" title="link to {{ project.title }}">Go to GitHub</a></span>
                     {% endif %}  
                   </section>
                   <div class="post-meta">
