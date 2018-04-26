@@ -2,8 +2,8 @@
 title: A Neural Network for Bike Sharing prediction
 layout: project_page
 description: In this project, we build a neural network from scratch to carry out a prediction problem about daily bike rental ridership, on a real dataset.  By building a neural network from the ground up, we'll have a much better understanding of gradient descent, backpropagation, and other concepts that are important to know before we move to higher level tools such as Tensorflow. Some boilerplate code has been already provided, especially if we are not familiar enough with pandas. 
-project-link: 'https://github.com/nvmoyar/dlnd-your-first-neural-network'
-project-image: 'vanillann_screenshot.png'
+project-link: "https://github.com/nvmoyar/dlnd-your-first-neural-network"
+project-image: "vanillann_screenshot.png"
 project-category: Feed Forward
 project-tags:
  Feed Forward Neural Network
