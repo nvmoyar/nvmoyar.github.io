@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h2>Tags:</h2>
+<h4>Tags:</h4>
 <!-- create and assign a list of unique project-tags of a jekyll-collections called projects --> 
 {% assign tags =  site.projects | map: 'project-tags' | join: ' '  | split: ' ' | uniq %}
   <div class="tags"> 
