@@ -1,9 +1,9 @@
 ---
 title: Dog Breed Classifier
 layout: project_page
-description: In this project, we build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images. Given an image, the algorithm will be able to detect if there is a human face in it or a dog image and it will return an estimate of the canine’s breed if a dog image is provided, and if an image of a human is provided, it will return the most resembling dog breed.   
-project-link: "https://github.com/nvmoyar/aind2-dog-breed-classifier"
-project-image: "dog-breed-classifier_screenshot.png"
+description: In this project, we build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images. Given an image, the algorithm will be able to detect if there is a human face in it or a dog image and it will return an estimate of the canine’s breed if a dog image is provided, and if an image of a human is provided, it will return the most resembling dog breed.
+project-link: https://github.com/nvmoyar/aind2-dog-breed-classifier
+project-image: dog-breed-classifier_screenshot.png
 project-category: Image Classifier
 project-tags:
  CNN
