@@ -7,10 +7,10 @@ project-link: "https://github.com/nvmoyar/aind-planning-search"
 project-image: "planning_screenshot.png"
 project-category: AI Algorithms
 project-tags:
- "Constraint-Satisfaction"
- "Search-algorithms"
- "A-star"
- "Heuristics"
+ Constraint-Satisfaction
+ Search-algorithms
+ A-star
+ Heuristics
 ---
 
 In this Cargo problems, we assume that no action can satisfy more than one goal, and since goals are satisfied by different actions, so if there are three goal states, there will be necessary at least three actions to satisfy the goal state.  It is also assumed that all step nodes have the same cost. 

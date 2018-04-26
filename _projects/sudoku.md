@@ -6,7 +6,7 @@ project-link: "https://github.com/nvmoyar/aind1-sudoku"
 project-image: "sudoku_screenshot.gif"
 project-category: AI Algorithms
 project-tags:
- "Constraint-Satisfaction"
+ Constraint-Satisfaction
 ---
 
 In this project, we write code to implement two extensions of our Sudoku solver. The first one will be to implement the technique called "naked twins". The second one will be to modify our existing code to solve a diagonal sudoku. The goals are to implement the naked twins function and write an AI agent that will solve the Diagonal Sudoku game and experience constraint propagation in both implementations. 

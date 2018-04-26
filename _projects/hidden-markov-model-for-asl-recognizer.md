@@ -6,8 +6,8 @@ project-link: "https://github.com/nvmoyar/aind1-recognizer"
 project-image: "recognizer_screenshot.png"
 project-category: Speech Recognition
 project-tags:
- "Automatic-Speech-Recognition"
- "Hidden-Markov-Models"
+ Automatic-Speech-Recognition
+ Hidden-Markov-Models
 ---
 
 #### PART 1: Extracting the features

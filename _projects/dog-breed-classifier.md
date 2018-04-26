@@ -6,13 +6,13 @@ project-link: "https://github.com/nvmoyar/aind2-dog-breed-classifier"
 project-image: "dog-breed-classifier_screenshot.png"
 project-category: Image Classifier
 project-tags:
- "CNN"
- "Transfer-Learning"
- "VGGx"
- "ResNet"
- "Bottleneck-features"
- "Haar-cascades"
- "Keras"
+ CNN
+ Transfer-Learning
+ VGGx
+ ResNet
+ Bottleneck-features
+ Haar-cascades
+ Keras
 ---
 
 ### Part 1: Image dectector
