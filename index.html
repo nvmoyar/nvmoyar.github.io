@@ -20,7 +20,7 @@ layout: default
         <!-- iterate through all the projects --> 
         {% for project in site.projects %} 
           {% if project.project-category contains category.name %} 
-              <li id="{{ project.project-category | replace:' ','-' }}"> 
+              <li id="{{ project.project-category}}"> 
                 <article class="post-container post-container--single">    
                   <header class="post-header">
                     <a href="{{ project.url | prepend: site.baseurl }}">
