@@ -2,16 +2,16 @@
 title: Neural Machine Translation
 layout: project_page
 description: In this project a sequence to sequence model is trained on a custom small dataset of English and French sentences in order to translate new sentences from English to French using TensorFlow.  
-project-link: https://github.com/nvmoyar/lstm-language-translation
-project-image: "language-translation_screenshot.png"
+project-link: 'https://github.com/nvmoyar/lstm-language-translation'
+project-image: 'language-translation_screenshot.png'
 project-category: Text Processing
 project-tags:
- "Seq-2-Seq"
- "Neural-Machine-Translation"
- "Word-embeddings"
- "Gradient-clipping"
- "LSTM"
- "TensorFlow"
+	Seq-2-Seq
+	Neural-Machine-Translation
+	Word-embeddings
+	Gradient-clipping
+	LSTM
+	TensorFlow
 ---
 
 In this project, a Neural Machine Translation is performed to translate sentences from English to French using a [Seq-2-Seq model](https://github.com/google/seq2seq/blob/master/docs/nmt.md) using [Tensorflow](www.tensorflow.org/tutorials/seq2seq). The model is trained on a custom small dataset of English and French sentences in order to later perform translation of new sentences, from English to French. 
