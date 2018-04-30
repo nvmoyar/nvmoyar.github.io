@@ -3,7 +3,7 @@ title: Nohemy Veiga Moyar
 description: 'A Deep Learning projects site for Udacity DLND and AIND nanodegrees'
 url: 'http://nvmoyar.github.io'
 baseurl: ''
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-118385695-1'
 # disqus_shortname: 'your-disqus-name'
 
 author:
