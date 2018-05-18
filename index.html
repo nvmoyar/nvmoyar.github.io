@@ -5,7 +5,7 @@ layout: default
 {% assign groups = site.projects | group_by: "project-category" %}
 <!-- create and assign a list of unique project-tags of a jekyll-collections called projects --> 
 {% assign tags =  site.projects | map: 'project-tags' | join: ' '  | split: ' ' | uniq %}
-  <div class="categories"> 
+  <div class="categories" id="header"> 
             <h4>Project Categories:</h4>
     {% for group in groups %}
             <a href="#{{ group.name | replace:' ','-' }}">{{ group.name }}</a>
@@ -36,12 +36,16 @@ layout: default
                       <span><a href="{{ project.project-link }}" target="_blank" title="link to {{ project.title }}">Go to GitHub</a></span>
                     {% endif %}  
                   </section>
-                  <div class="post-meta">
+                   <div class="tools">
+                          <h5>Project stack and tools:</h5>
+                    {% for tools in project.project-tools %}
+                          <span> {{ tools }} </span>
+                    {% endfor %}
+                  </div>
+                  <div class="tags">
                     {% for tag in tags %}
-                      {% if project.project-tags contains tag %}
-                        <span class="post-meta__tags">
-                          <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a> 
-                        </span>
+                      {% if project.project-tags contains tag %}   
+                          <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>                    
                       {% endif %}
                     {% endfor %}
                   </div>
