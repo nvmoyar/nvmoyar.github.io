@@ -5,6 +5,7 @@ description: In this project, a Convolutional Neural Network is built to classif
 project-link: https://github.com/nvmoyar/dlnd-cnn-image-classifier
 project-image: cifar-10-image-classifier_screenshot.png
 project-category: Image Classifier
+project-tools: Jupyter Notebooks, Numpy, Pandas, SciKit-Learn, TensorFlow, CIFAR-10 Dataset, AWS Deep Learning AMI with Source Code (CUDA 8, Ubuntu)
 project-tags:
  CNN
  TensorFlow

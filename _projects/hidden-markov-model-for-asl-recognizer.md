@@ -5,6 +5,7 @@ description: The main goal of this project is to build a word recognizer for som
 project-link: https://github.com/nvmoyar/aind1-recognizer
 project-image: recognizer_screenshot.png
 project-category: Speech Recognition
+project-tools: Jupyter Notebooks, Numpy, Pandas, hmmlearn, unittest, RWTH-BOSTON-104 Database (American Sign Language), FloydHub CPU (Intel Xeon 2 Cores 8 GB RAM 100 GB SSD)
 project-tags:
  Automatic-Speech-Recognition
  Hidden-Markov-Models

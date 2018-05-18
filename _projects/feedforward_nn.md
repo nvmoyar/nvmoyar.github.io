@@ -5,8 +5,10 @@ description: In this project, we build a neural network from scratch to carry ou
 project-link: https://github.com/nvmoyar/dlnd-your-first-neural-network
 project-image: feedforward_screenshot.png
 project-category: Feed Forward
+project-tools: Jupyter Notebooks, Numpy, Pandas, Matplotlib, TensorFlow, FloydHub Standard GPU Tesla K80 12 GB Memory 61 GB RAM 100 GB SSD
 project-tags:
- Feed Forward Neural Network
+ Feed-Forward-Neural-Network
+ Data-wrangling
 ---
 
 In this project, we build a neural network from scratch to carry out a prediction problem about daily bike rental ridership, on a real dataset.  By building a neural network from the ground up, we'll have a much better understanding of gradient descent, backpropagation, and other concepts that are important to know before we move to higher level tools such as Tensorflow. Some boilerplate code has been already provided, especially if we are not familiar enough with pandas. 

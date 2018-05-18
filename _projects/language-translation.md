@@ -5,6 +5,7 @@ description: In this project a sequence to sequence model is trained on a custom
 project-link: https://github.com/nvmoyar/dlnd-lstm-language-translation
 project-image: language-translation_screenshot.png
 project-category: Text Generation
+project-tools: Jupyter Notebooks, Numpy, Pandas, TensorFlow, unittest, Custom Dataset, AWS Deep Learning AMI with Source Code (CUDA 8, Ubuntu)
 project-tags:
  Seq-2-Seq
  Neural-Machine-Translation

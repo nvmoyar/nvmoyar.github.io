@@ -5,6 +5,7 @@ description: In this project, we develop an adversarial search agent to play the
 project-link: https://github.com/nvmoyar/aind1-isolation-game
 project-image: game-agent-isolation_screenshot.png
 project-category: AI Algorithms
+project-tools: Python 3.6, cProfile, unittest
 project-tags: 
  Constraint-Satisfaction
  Search

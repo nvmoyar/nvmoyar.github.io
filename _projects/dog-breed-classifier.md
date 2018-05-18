@@ -5,6 +5,7 @@ description: In this project, we build a pipeline that can be used within a web 
 project-link: https://github.com/nvmoyar/aind2-dog-breed-classifier
 project-image: dog-breed-classifier_screenshot.png
 project-category: Image Classifier
+project-tools: Jupyter Notebooks, OpenCV, Numpy, Matplotlib, Keras, FloydHub Standard GPU Tesla K80 12 GB Memory 61 GB RAM 100 GB SSD, AWS Deep Learning AMI with Source Code (CUDA 8, Ubuntu)
 project-tags:
  CNN
  Transfer-Learning
@@ -13,6 +14,7 @@ project-tags:
  Bottleneck-features
  Haar-cascades
  Keras
+ Image Augmentation
 ---
 
 ## Part 1: Image dectector

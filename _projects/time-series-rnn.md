@@ -5,6 +5,7 @@ description: This project consists of two different unrelated mini-projects, whe
 project-link: https://github.com/nvmoyar/aind2-time-series
 project-image: rnn-time-series_screenshot.png
 project-category: Text Generation
+project-tools: Jupyter Notebooks, Keras, Custom Dataset, Floyd GPU Standard GPU Tesla K80, 12 GB Memory 61 GB RAM, 100 GB SSD, AWS Deep Learning AMI with Source Code (CUDA 8, Ubuntu), Conda.
 project-tags:
  Keras
  RNN

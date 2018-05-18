@@ -5,6 +5,7 @@ description: Use of Generative Adversarial Networks (GAN's) to generate new imag
 project-link: https://github.com/nvmoyar/dlnd-gan-face-generation
 project-image: gan_screenshot.png
 project-category: Image Generation
+project-tools: Jupyter Notebooks, Python 3.6, Numpy, Matplotlib, TensorFlow, unittest, MNIST and CelebA Dataset, AWS Deep Learning AMI with Source Code (CUDA 8, Ubuntu)
 project-tags:
  Generative-Discriminative-NN
  GAN

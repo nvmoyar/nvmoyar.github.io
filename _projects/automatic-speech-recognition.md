@@ -5,6 +5,7 @@ description: In this notebook, some different approaches are used to build the a
 project-link: https://github.com/nvmoyar/aind2-speech-recognition
 project-image: ASR_screenshot.png
 project-category: Speech Recognition
+project-tools: Jupyter Notebooks, Python 3.6, Numpy, Seaborn, Matplotlib, Keras, LibriSpeech Dataset, FloydHub Standard GPU Tesla K80 12 GB Memory 61 GB RAM 100 GB SSD
 project-tags:
  Automatic-Speech-Recognition
  CNN

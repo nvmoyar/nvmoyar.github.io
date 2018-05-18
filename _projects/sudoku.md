@@ -5,6 +5,7 @@ description: In this project, we write code to implement two extensions of our S
 project-link: https://github.com/nvmoyar/aind1-sudoku
 project-image: sudoku_screenshot.gif
 project-category: AI Algorithms
+project-tools: Python 3.6, logging, unittest, pygame.
 project-tags:
  Constraint-Satisfaction
 ---
