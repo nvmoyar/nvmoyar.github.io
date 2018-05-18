@@ -36,11 +36,13 @@ layout: default
                       <span><a href="{{ project.project-link }}" target="_blank" title="link to {{ project.title }}">Go to GitHub</a></span>
                     {% endif %}  
                   </section>
-                   <div class="tools">
-                          <h5>Project stack and tools:</h5>
-                    {% for tools in project.project-tools %}
-                          <span> {{ tools }} </span>
-                    {% endfor %}
+                   <div class="tools">        
+                    {% if project.project-tools %}     
+                      <h5>Project stack and tools:</h5> 
+                        {% for tools in project.project-tools %}
+                              <span> {{ tools }} </span>
+                        {% endfor %}
+                    {% endif %}
                   </div>
                   <div class="tags">
                     {% for tag in tags %}
